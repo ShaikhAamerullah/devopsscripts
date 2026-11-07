@@ -11,3 +11,7 @@ su - sonar
 # use the below command manually after installation
 #sh /opt/sonarqube-26.11.0.134175/bin/linux-x86-64/sonar.sh start
 #echo "user=admin & password=admin"
+
+
+this is start code after install this::
+sh /opt/sonarqube-26.11.0.134175/bin/linux-x86-64/sonar.sh start
