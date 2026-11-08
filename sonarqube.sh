@@ -16,3 +16,13 @@ sh vi filename
 
 after this is start code after install this:: not anychnage
 sh /opt/sonarqube-26.11.0.134175/bin/linux-x86-64/sonar.sh start
+
+pipeline script
+        stage('SonarQubeAnalysis') {
+            steps {
+                withSonarQubeEnv('SonarQube') {
+                    sh '''
+                        mvn org.sonarsource.scanner.maven:sonar-maven-plugin:5.8.0.7211:sonar \
+                        -Dsonar.projectKey=in.reyaz:myapp \
+                        -Dsonar.projectName=myapp
+                    '''
