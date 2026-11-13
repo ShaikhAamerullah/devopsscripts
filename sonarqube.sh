@@ -11,12 +11,12 @@ su - sonar
 # use the below command manually after installation
 #sh /opt/sonarqube-26.11.0.134175/bin/linux-x86-64/sonar.sh start
 #echo "user=admin & password=admin"
-
+----------------------------------------------------------------------------------------------------------
 sh vi filename
-
+----------------------------------------------------------------------------------------------------------
 after this is start code after install this:: not anychnage
 sh /opt/sonarqube-26.11.0.134175/bin/linux-x86-64/sonar.sh start
-
+----------------------------------------------------------------------------------------------------------
 pipeline script
         stage('SonarQubeAnalysis') {
             steps {
