@@ -16,7 +16,7 @@ vi tomcat.yml
   tasks:
     - name: Download tomcat from dlcdn
       get_url:
-        url: "https://dlcdn.apache.org/tomcat/tomcat-11/v11.0.29/bin/apache-tomcat-11.0.29.tar.gz&quot;
+        url: "https://dlcdn.apache.org/tomcat/tomcat-11/v11.0.29/bin/apache-tomcat-11.0.29.tar.gz"
         dest: "/root/"
 
     - name: untar the apache file
