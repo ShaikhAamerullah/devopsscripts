@@ -15,3 +15,8 @@ systemctl status jenkins.service
 
 #STEP-5: Auto-Start Jenkins
 chkconfig jenkins on
+
+
+
+------------------------------------------------------------------------------------------------------------------------------
+wget https://updates.jenkins.io/download/war/2.585/jenkins.war
